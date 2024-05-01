@@ -53,14 +53,15 @@ ul li a {
 }
 
 main {
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15%;
+    margin-top: 50%;
     background-image: linear-gradient(to right, grey, black);
-    width: 40%;
+    width: 70%;
     border-radius: 30px;
-    height: 10rem;
+    height: 15rem;
 }
 
 h2 {
@@ -82,4 +83,11 @@ button {
 button:hover {
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
     border-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+    main {
+        margin-top: 15%;
+        width: 40%;
+    }
 }
