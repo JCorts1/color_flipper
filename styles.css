@@ -85,7 +85,7 @@ button:hover {
     border-color: #fff;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 735px) {
     main {
         margin-top: 15%;
         width: 40%;
