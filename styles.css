@@ -57,7 +57,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50%;
+    margin-top: 15%;
     background-image: linear-gradient(to right, grey, black);
     width: 70%;
     border-radius: 30px;
@@ -87,7 +87,8 @@ button:hover {
 
 @media only screen and (max-width: 735px) {
     main {
-        margin-top: 15%;
-        width: 40%;
+        margin-top: 50%;
+        width: 75%;
+        height: 20rem;
     }
 }
